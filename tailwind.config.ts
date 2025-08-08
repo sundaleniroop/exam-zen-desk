@@ -36,6 +36,14 @@ export default {
 					DEFAULT: 'hsl(var(--destructive))',
 					foreground: 'hsl(var(--destructive-foreground))'
 				},
+				success: {
+					DEFAULT: 'hsl(var(--success))',
+					foreground: 'hsl(var(--success-foreground))'
+				},
+				warning: {
+					DEFAULT: 'hsl(var(--warning))',
+					foreground: 'hsl(var(--warning-foreground))'
+				},
 				muted: {
 					DEFAULT: 'hsl(var(--muted))',
 					foreground: 'hsl(var(--muted-foreground))'
@@ -51,6 +59,13 @@ export default {
 				card: {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
+				},
+				quiz: {
+					progress: 'hsl(var(--quiz-progress))',
+					timer: 'hsl(var(--quiz-timer))',
+					'timer-danger': 'hsl(var(--quiz-timer-danger))',
+					correct: 'hsl(var(--quiz-correct))',
+					incorrect: 'hsl(var(--quiz-incorrect))'
 				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
