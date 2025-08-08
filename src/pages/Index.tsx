@@ -1,7 +1,7 @@
-import { Quiz } from "@/components/Quiz/Quiz";
+import { CompressionTool } from "@/components/Compression/CompressionTool";
 
 const Index = () => {
-  return <Quiz />;
+  return <CompressionTool />;
 };
 
 export default Index;
